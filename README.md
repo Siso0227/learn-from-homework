@@ -51,6 +51,18 @@ A reusable skill for completing and understanding homework across subjects. Choo
 
 需要暂停时可说“总结当前进度，方便下次继续”。助手会按需提供续接摘要；如需跨次保存，先经你同意，再放在私人课程目录中。下次提供摘要或允许读取记录即可续接。
 
+## 讲题时如何追溯依据
+
+先匹配并核对课程来源，再展开讲解；关键知识给出准确页码，PDF 页序与幻灯片编号不同时分别标注。公式、图示及相似例题优先配原页视觉证据，解释它与本题步骤的联系；重复来源不反复截图，无法显示时明确限制。相似例题须核对目标、条件和假设，不直接照搬。
+
+讲解围绕必要的知识依赖定位薄弱点，并更新课程知识地图。未检验、提示下完成、独立应用与具体困难依据实际回应区分；助手完成了作业不代表用户已掌握。简单题只展示必要内容，不强制输出全部栏目。
+
+## 作业后知识图谱
+
+可选择生成“本作业知识＋必要前置”的图谱，或“已提供课程材料全景＋本作业高亮”的图谱。后者会说明资料覆盖范围，不默认每次梳理全课程。
+
+覆盖范围、学习状态和依赖关系分别编码，配图例、题号及来源备注。支持按工具能力生成 XMind；不能可靠导出或预览时，会说明限制并提供层级大纲等替代选择，不冒充已验证的 XMind 文件。图谱与截图保存在私人学习材料中，不放入提交作业或公开包。
+
 ## 更多调用示例
 
 示例请求：
@@ -90,6 +102,8 @@ A reusable skill for completing and understanding homework across subjects. Choo
 | `references/course-profile.example.md` | 可选的私人配置和进度记录示例 |
 | `references/answer-style.md` | 按作业文体作答与短样例校准规则 |
 | `references/preferences.md` | 私人偏好的确认、保存、读取与更新保护 |
+| `references/course-evidence.md` | 课件定位、页码、截图与例题映射 |
+| `references/knowledge-map.md` | 知识依赖、证据状态与可选图谱导出 |
 | `README.md` | 安装与使用说明 |
 | `assets/banner.svg` | README 中英双语标题横幅 |
 
