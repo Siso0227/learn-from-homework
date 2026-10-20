@@ -1,0 +1,10 @@
+# Keep local courses, answers and personal records outside this public package.
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.env
+.env.*
+private/
+local/
+*.zip
