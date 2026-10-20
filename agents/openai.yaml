@@ -1,0 +1,4 @@
+interface:
+  display_name: "做中学 · Learn from Homework"
+  short_description: "跨课程结合课件依据、分层解题与理解检查，建立联系并练习迁移"
+  default_prompt: "使用 $learn-from-homework，结合题目和课程材料带我理解、解题并检查掌握情况。"
