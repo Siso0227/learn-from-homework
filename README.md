@@ -1,5 +1,11 @@
 <div align="center">
   <img src="assets/banner.svg" alt="做中学 · Learn from Homework：从作业出发，把知识连起来。" width="100%">
+  <p>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-bb9b27?style=flat-square" alt="License: MIT"></a>
+    <a href="https://agentskills.io/specification"><img src="https://img.shields.io/badge/Agent%20Skills-Standard-678742?style=flat-square" alt="Agent Skills: Standard"></a>
+    <a href="#使用"><img src="https://img.shields.io/badge/Codex-Skill-315741?style=flat-square" alt="Codex: Skill"></a>
+    <a href="#讲题时如何追溯依据"><img src="https://img.shields.io/badge/Learning-Course--grounded-526252?style=flat-square" alt="Learning: Course-grounded"></a>
+  </p>
   <p><strong>跨课程作业辅导 · 课件优先 · 两种学习节奏 · 多语言作答</strong></p>
   <p><a href="#使用">快速开始</a> · <a href="#更多调用示例">调用示例</a> · <a href="#暂停与继续">暂停与继续</a></p>
 </div>
@@ -87,7 +93,13 @@ A reusable skill for completing and understanding homework across subjects. Choo
 
 `references/course-profile.example.md` 是虚构配置示例。复制到自己的课程目录后填写；实际课程资料和学习记录不要放进这个公开包。没有配置也能开始，提供题目与相关课件即可。
 
-本仓库只包含通用指引与虚构配置示例，不包含真实课程文件、作业答案或个人学习记录，也不要求特定付费插件。实际使用须遵守课程对工具、引用和独立完成的要求。当前未指定开源许可证。
+本仓库只包含通用指引与虚构配置示例，不包含真实课程文件、作业答案或个人学习记录，也不要求特定付费插件。实际使用须遵守课程对工具、引用和独立完成的要求。
+
+## 许可证
+
+本项目采用 [MIT 许可证](LICENSE)。Copyright © 2026 Siso0227。允许按许可证条件使用、修改、分发和商业使用；分发副本或实质性部分时须保留版权与许可声明。
+
+本许可覆盖仓库内有权授权的项目内容，不自动覆盖用户提供的课件、第三方资料或私人学习记录。Agent Skills 徽章表示采用该格式，不代表官方认证。
 
 ### 更新和分享
 
@@ -105,6 +117,7 @@ A reusable skill for completing and understanding homework across subjects. Choo
 | `references/course-evidence.md` | 课件定位、页码、截图与例题映射 |
 | `references/knowledge-map.md` | 知识依赖、证据状态与可选图谱导出 |
 | `README.md` | 安装与使用说明 |
+| `LICENSE` | MIT 许可证全文 |
 | `assets/banner.svg` | README 中英双语标题横幅 |
 
 ## 暂停与继续
