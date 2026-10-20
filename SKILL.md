@@ -1,5 +1,6 @@
 ---
 name: learn-from-homework
+license: MIT
 description: Help complete and understand assignments, individual exercises, and classroom questions across subjects using course evidence, checked answers, tutoring, and transfer practice. Offer file-first completion or tutoring while solving.
 ---
 
